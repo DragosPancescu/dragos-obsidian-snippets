@@ -10,8 +10,8 @@
   border: 1px solid rgba(29, 28, 29, 0.13);
 }
 
-/* Reading mode */
-.markdown-rendered code {
+/* Reading mode (inline code only, not fenced code blocks) */
+.markdown-rendered code:not(pre code) {
   background-color: rgba(29, 28, 29, 0.04) !important;
   color: #d1660f !important;
   padding: 2px 5px !important;
@@ -28,7 +28,7 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.theme-dark .markdown-rendered code {
+.theme-dark .markdown-rendered code:not(pre code) {
   background-color: rgba(255, 255, 255, 0.06) !important;
   color: #d1660f !important;
   border: 1px solid rgba(255, 255, 255, 0.1);
