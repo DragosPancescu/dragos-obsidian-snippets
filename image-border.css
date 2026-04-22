@@ -1,0 +1,19 @@
+/* Reading mode */
+.markdown-rendered img {
+  border: 1px solid rgba(29, 28, 29, 0.15);
+  border-radius: 4px;
+}
+
+/* Live Preview / Source mode */
+.markdown-source-view img,
+.cm-content img {
+  border: 1px solid rgba(29, 28, 29, 0.15);
+  border-radius: 4px;
+}
+
+/* Dark theme adjustments */
+.theme-dark .markdown-rendered img,
+.theme-dark .markdown-source-view img,
+.theme-dark .cm-content img {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
